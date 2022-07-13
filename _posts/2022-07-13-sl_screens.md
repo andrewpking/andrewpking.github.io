@@ -8,14 +8,11 @@ excerpt: "Machine Learning, Data Science, Data Visualization"
 mathjax: "true"
 ---
 
-# H1 Heading
-Investigating the use of screens in Super Learner ensembles
+# Investigating the use of screens in Super Learner ensembles
 
-## H2 Heading
-Andrew King^1; Brian Williamson, PhD^2; and Ying Huang, PhD^2
+## Andrew King<sup>1</sup>; Brian Williamson, PhD<sup>2</sup>; and Ying Huang, PhD<sup>2</sup>
 
-### H3 Heading
-Seattle Central College^1 & Fred Hutchinson Cancer Research Center^2
+### <sup>1</sup>Seattle Central College & <sup>2</sup>Fred Hutchinson Cancer Research Center
 
 **Abstract**
 
@@ -44,10 +41,8 @@ Lasso + SL not always a helpful combo; surprising result!
 * Lasso by itself = unreliable in most cases
 * Lasso + SL with no screens = unreliable in many cases
 
-![Chart of Preliminary data](images/lasso_vs_sl.png)
-
-*Code will be available on GitHub4 once the paper is published*
-* open source under the MIT license
+*Code will be available on GitHub once the paper is published*
+* Open source under the MIT license
 
 **Next steps:**
 Train researchers to follow our guidelines + practices.
