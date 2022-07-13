@@ -14,7 +14,7 @@ mathjax: "true"
 
 ### <sup>1</sup>Seattle Central College & <sup>2</sup>Fred Hutchinson Cancer Research Center
 
-**Abstract**
+Abstract
 
 Clinical research trials often generate "big data"
 * Examples: vaccine and cancer early detection research
@@ -35,7 +35,8 @@ Potential impact in vaccine, cancer research
 *Methodology of this research will be available upon peer review*
 
 
-**Results**
+Results
+
 Lasso + SL not always a helpful combo; surprising result!
 * SL with screens or SL with lasso and screens = safe choice
 * Lasso by itself = unreliable in most cases
