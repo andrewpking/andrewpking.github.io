@@ -2,10 +2,10 @@
 main:
   - title: "About"
     url: /about/
-  # - title: "Data Wrangling Projects"
-  #  url: /data-wrangling/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
+  - title: "Investigating the use of screens in Super Learner ensembles"
+    url: /sl_screens/
+  - title: "Solala App"
+    url: /solala/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
