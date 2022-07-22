@@ -2,7 +2,7 @@
 main:
   - title: "About"
     url: /about/
-  - title: "Investigating the use of screens in Super Learner ensembles"
+  - title: "SuperLearner Screens"
     url: /sl_screens/
   - title: "Solala App"
     url: /solala/

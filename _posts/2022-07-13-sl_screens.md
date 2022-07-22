@@ -1,5 +1,6 @@
 ---
-title: "Investigating the use of screens in Super Learner ensembles"
+title: "SuperLearner Screens"
+permalink: /sl_screens/
 date: 2022-07-13
 tags: [machine learning, data science, data visualization]
 header:
