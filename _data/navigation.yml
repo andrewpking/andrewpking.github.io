@@ -6,8 +6,8 @@ main:
     url: /sl_screens/
   - title: "Solala App"
     url: /solala/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
+  - title: "Allen School"
+    url: /allen-school/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"

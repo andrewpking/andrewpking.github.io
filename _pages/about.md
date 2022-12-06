@@ -1,7 +1,7 @@
 ---
 title: "About"
 permalink: /about/
-header:
+header:  "Drew King (they/them)"
   image: "/images/waterfront.jpeg"
 ---
 
@@ -9,7 +9,7 @@ I'm a junior data scientist who excels at data visualizations with some experien
 
 I interned at Fred Hutch in 2021 under Doctor Brian Williamson in infectious disease research.  While there I used R to run machine learning experiments and create data visualizations for a simulation created by Doctor Williamson.
 
-Currently, I am a Computer Science undergraduate student at UW Seattle with an expected graduation date of Spring 2024.  I completed my associates degree from Seattle Central College in Applied Sciences and Physics in June 2021.
+Currently, I am a [Computer Science](https://andrewpking.github.io/allen-school/) undergraduate student at UW Seattle with an expected graduation date of Spring 2024.  I completed my associates degree from Seattle Central College in Applied Sciences and Physics in June 2021.
 
 This summer I am helping build a mental health app called [Solala](https://solala.app).  I am a junior programmer and a research lead.  You can read more about my role [here](https://solala.app/drew.html).  My goal is to obtain an internship for Summer 2023 and get involved with research and big data during the next academic calendar year.  
 
