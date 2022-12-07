@@ -3,6 +3,13 @@ title: "About"
 permalink: 
 header:  "Drew King (they/them)"
   image: "/images/waterfront.jpeg"
+  sidebar:
+  - title: "About"
+    image: "images/bio-pic-2.jpg"
+    image_alt: "logo"
+    text: "Data Scientist, Junior Developer"
+  - title: "Experience"
+    text: "Working in computer science education and data science research to have a meaningful impact on communities."
 ---
 
 I'm a junior data scientist who excels at data visualizations with some experience in machine learning, exploratory analysis, and data visualizations.

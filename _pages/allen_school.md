@@ -3,8 +3,14 @@ title: "Allen School"
 permalink: /allen_school/
 date: 2022-12-06
 tags: [education, metacognition, accessibility]
-header: "My time at Paul G Allen School for Computer Science"
-  image: "/images/allen-school.jpg"
+header:
+sidebar:
+  - title: "Allen School for Computer Science"
+    image: "/images/allen_school.jpg"
+    image_alt: "logo"
+    text: "Education, Metacognintion, Accessibility"
+  - title: "Experience"
+    text: "Working with SuperLearner to find more meaningful ways to process data"
 excerpt: "Education, Metacognintion, Accessibility"
 mathjax: "true"
 ---
