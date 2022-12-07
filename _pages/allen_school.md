@@ -15,7 +15,7 @@ excerpt: "Education, Metacognintion, Accessibility"
 mathjax: "true"
 ---
 
-I'm a junior Computer Science student at the University of Washington with an expected graduation date of Spring 2024.  Additionally I am a teachers assistant for the Fall 2022 offering of [CSE 390Z](https://courses.cs.washington.edu/courses/cse390z/22au/).  Studying and teaching Computer Science here has required me to embrace a growth mindset, learn metacognitive skills, and apply them when learning technical skills.
+I'm a junior Computer Science student at the University of Washington with an expected graduation date of Spring 2024.  Additionally I was a teachers assistant for the Fall 2022 offering of [CSE 390Z](https://courses.cs.washington.edu/courses/cse390z/22au/).  Studying and teaching Computer Science here has required me to embrace a growth mindset, learn metacognitive skills, and apply them when learning technical skills.
 
 **Metacognitive Skills**
 
@@ -37,3 +37,21 @@ At UW, one metacognitive skill I have been applying is building connections with
     - This is built on top of software already built for non games to enhance touch targets to be selectable via an accessibility switch.
 
 Another important skill to succeed at the Allen School is using [Cornell Notes](https://lsc.cornell.edu/wp-content/uploads/2016/10/Cornell-NoteTaking-System.pdf).  What Cornell Notes do is heighten note taking to take advantage of [Bloom's Taxonomy](https://cft.vanderbilt.edu/guides-sub-pages/blooms-taxonomy/) by including questions and summaries into notes for a lecture.  By taking notes in this manner, I have retained more information from lecture and been able to know when to apply the information appropriately on projects.  An example of my Cornell notes on using loads in computer architecture are provided here. ![Cornell Notes](https://andrewpking.github.io/images/cornell_notes.png)
+
+**Technical Skill**
+
+One technical skill I learned at the Allen School is Assembly Language, both x-86 and HACK Assembly.  HACK Assembly is a low level language created for the [NAND2Tetris Project](https://www.nand2tetris.org/software) to write low level code for their HACK Computer.
+  * This computer has 3 registers available for programming.
+    + The D (data) register holds any numeric data passed into the register.
+    + The A (address) register holds any numeric data passed in or assigned to it, the A register is also used to reference locations in memory in the hack computer.
+    + The M (memory) register contains the data that the A register references to in memory.  In other words, the M register is the dereference of the A register.
+  * Hack Assembly supports a handful of functions used by these 3 registers.
+    + Hack Assembly allows for literals to be assigned to the A register using the syntax "@value", but not for any other register, which require values to be passed in.
+    + Hack assembly supports simple arithmetic computations such as adding, subtracting, incrementing, and decrementing the registers.
+    + Hack assembly supports Jump commands in the syntax "@Label", "RegisterName; JumpType" all separated by new lines with no commas.
+  * With these simple commands the HACK computer requires most logic to be implemented in software.  I will provide an example of software I wrote by hand that multiplies the value of two positive integers and stores them in memory.
+![Hack Assembly](https://andrewpking.github.io/images/hack_assembly2.png)
+
+**Life at Allen School**
+
+Learning about computers on a low level is important in fostering a deeper understanding of how they work, what can go wrong, and how to write code that is more optimized for computers.  Being a student at The Allen School is a great opportunity to grow as a person, an academic, and a developer.  These skills are highly transferrable to life inside and outside of tech.  Allen School students learn to become self disciplined, motivated, and excellent technical communicators through the programs rigorous curriculum.  I am very fortunate to have the opportunity to study here.
