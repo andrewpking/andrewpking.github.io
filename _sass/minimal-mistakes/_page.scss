@@ -1,11 +1,15 @@
 /* ==========================================================================
    SINGLE PAGE/POST
    ========================================================================== */
+   *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 #main {
   @include clearfix;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 40px auto;
   padding-left: 1em;
   padding-right: 1em;
   -webkit-animation: $intro-transition;
@@ -574,5 +578,11 @@ body {
     @include breakpoint($x-large) {
       padding-right: 0;
     }
+  }
+}
+
+@media screen and (max-width:800px){
+  #main{
+    margin: 10px auto;
   }
 }
