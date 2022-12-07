@@ -1,6 +1,6 @@
 ---
 title: "About"
-permalink: 
+permalink: /about/
 header:  "Drew King (they/them)"
   image: "/images/waterfront.jpeg"
   sidebar:
