@@ -1,11 +1,17 @@
 ---
 title: "Allen School"
-permalink: /allen-school/
-header: "E-Portfolio of work at Paul G Allen School for Computer Sciece"
+permalink: /allen_school/
+date: 2022-12-06
+tags: [education, metacognition, accessibility]
+header: "E-Portfolio of work at Paul G Allen School for Computer Science"
   image: "/images/allen-school.jpg"
+excerpt: "Education, Metacognintion, Accessibility"
+mathjax: "true"
 ---
 
 I'm a junior Computer Science student at the University of Washington with an expected graduation date of Spring 2024.  Additionally I am a teachers assistant for the Fall 2022 offering of [CSE 390Z](https://courses.cs.washington.edu/courses/cse390z/22au/).  Studying and teaching Computer Science here has required me to embrace a growth mindset, learn metacognitive skills, and apply them when learning technical skills.
+
+**Metacognitive Skills**
 
 At UW, one metacognitive skill I have been applying is building connections with peers, staff, and grad students.  In particular one grad student I met with is [Jesse Martinez](https://homes.cs.washington.edu/~jessejm/), a PhD student at UW and a contributor to the [Makeability Lab](https://makeabilitylab.cs.washington.edu/member/jessemartinez/).  We met at an [Ability](https://ability.cs.washington.edu) Ressearch Night and exchanged contact info.  We scheduled a zoom meeting and we had a discussion about his contributions to the Makeability Lab at UW in creating accessible games for people to play.  A sample from this meeting:
 * Jesse uses the following meethodology to determining accessibility needs for games.
