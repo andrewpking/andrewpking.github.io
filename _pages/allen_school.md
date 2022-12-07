@@ -6,7 +6,7 @@ tags: [education, metacognition, accessibility]
 header:
 sidebar:
   - title: "Allen School for Computer Science"
-    image: "/images/allen_school.jpg"
+    image: "https://andrewpking.github.io/images/allen_school.jpg"
     image_alt: "logo"
     text: "Education, Metacognintion, Accessibility"
   - title: "Experience"
@@ -36,4 +36,4 @@ At UW, one metacognitive skill I have been applying is building connections with
   + This is accomplished using middleware to modify the gameplay experience
     - This is built on top of software already built for non games to enhance touch targets to be selectable via an accessibility switch.
 
-Another important skill to succeed at the Allen School is using [Cornell Notes](https://lsc.cornell.edu/wp-content/uploads/2016/10/Cornell-NoteTaking-System.pdf).  What Cornell Notes do is heighten note taking to take advantage of [Bloom's Taxonomy](https://cft.vanderbilt.edu/guides-sub-pages/blooms-taxonomy/) by including questions and summaries into notes for a lecture.  By taking notes in this manner, I have retained more information from lecture and been able to know when to apply the information appropriately on projects.  An example of my Cornell notes on using loads in computer architecture are provided here. ![Cornell Notes](images/cornell_notes.png)
+Another important skill to succeed at the Allen School is using [Cornell Notes](https://lsc.cornell.edu/wp-content/uploads/2016/10/Cornell-NoteTaking-System.pdf).  What Cornell Notes do is heighten note taking to take advantage of [Bloom's Taxonomy](https://cft.vanderbilt.edu/guides-sub-pages/blooms-taxonomy/) by including questions and summaries into notes for a lecture.  By taking notes in this manner, I have retained more information from lecture and been able to know when to apply the information appropriately on projects.  An example of my Cornell notes on using loads in computer architecture are provided here. ![Cornell Notes](https://andrewpking.github.io/images/cornell_notes.png)
