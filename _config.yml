@@ -105,8 +105,8 @@ analytics:
 # Site Author
 author:
   name             : "Drew King"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
+  avatar           : "/assets/images/bio-pic2.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "I am a researcher and student."
   location         : "Seattle, WA"
   email            :
   links:
@@ -278,3 +278,14 @@ defaults:
       comments: # true
       share: true
       related: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      read_time: false
+      comments: false 
+      share: false
+      related: false
