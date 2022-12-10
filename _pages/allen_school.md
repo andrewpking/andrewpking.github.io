@@ -1,20 +1,13 @@
 ---
 title: "Allen School"
 permalink: /allen_school/
-date: 2022-12-06
 tags: [education, metacognition, accessibility]
 header:
-sidebar:
   - title: "Allen School for Computer Science"
-    image: "https://andrewpking.github.io/images/allen_school.jpg"
-    image_alt: "logo"
-    text: "Education, Metacognintion, Accessibility"
-  - title: "Experience"
-    text: "Working with SuperLearner to find more meaningful ways to process data"
+    image: assets/images/allen_school.jpg
 excerpt: "Education, Metacognintion, Accessibility"
 mathjax: "true"
 ---
-![Allen School](assets/images/allen_school.jpg)
 
 I'm a junior Computer Science student at the University of Washington with an expected graduation date of Spring 2024.  Additionally I was a teachers assistant for the Fall 2022 offering of [CSE 390Z](https://courses.cs.washington.edu/courses/cse390z/22au/).  Studying and teaching Computer Science here has required me to embrace a growth mindset, learn metacognitive skills, and apply them when learning technical skills.
 
@@ -38,7 +31,7 @@ Being a student at UW has helped me to become more confident in my ability to ma
 
 *Cornell Notes*
 
-Another important skill to succeed at the Allen School is using [Cornell Notes](https://lsc.cornell.edu/wp-content/uploads/2016/10/Cornell-NoteTaking-System.pdf).  What Cornell Notes do is heighten note taking to take advantage of [Bloom's Taxonomy](https://cft.vanderbilt.edu/guides-sub-pages/blooms-taxonomy/) by including questions and summaries into notes for a lecture.  By taking notes in this manner, I have retained more information from lecture and been able to know when to apply the information appropriately on projects.  An example of my Cornell notes on using loads in computer architecture are provided here. ![Cornell Notes](assets/images/cornell_notes.png)
+Another important skill to succeed at the Allen School is using [Cornell Notes](https://lsc.cornell.edu/wp-content/uploads/2016/10/Cornell-NoteTaking-System.pdf).  What Cornell Notes do is heighten note taking to take advantage of [Bloom's Taxonomy](https://cft.vanderbilt.edu/guides-sub-pages/blooms-taxonomy/) by including questions and summaries into notes for a lecture.  By taking notes in this manner, I have retained more information from lecture and been able to know when to apply the information appropriately on projects.  An example of my Cornell notes on using loads in computer architecture are provided here. ![Cornell Notes](https://andrewpking.github.io/assets/images/cornell_notes.png)
 
 Some ways I can improve on my Cornell Notes are writing the summary section before it is time to study for finals.  Ideally in the following 15 minutes after class when the concepts are still fresh in my mind.  This will further boost my retention of knowledge as I continue my education.
 
@@ -56,7 +49,7 @@ One technical skill I learned at the Allen School is Assembly Language, both x-8
     + Hack assembly supports simple arithmetic computations such as adding, subtracting, incrementing, and decrementing the registers.
     + Hack assembly supports Jump commands in the syntax "@Label", "RegisterName; JumpType" all separated by new lines with no commas.
   * With these simple commands the HACK computer requires most logic to be implemented in software.  I will provide an example of software I wrote by hand that multiplies the value of two positive integers and stores them in memory.
-![Hack Assembly](assets/images/hack_assembly2.png)
+![Hack Assembly](https://andrewpking.github.io/assets/images/hack_assembly2.png)
 
 **Life at Allen School**
 
