@@ -4,10 +4,7 @@ permalink: /sl_screens/
 date: 2022-07-13
 tags: [machine learning, data science, data visualization]
 header:
-  - title: "SuperLearner Screens"
     image: ../assets/images/lasso_vs_sl.png
-    image_alt: "data"
-    text: "Machine Learning, Data Science, Data Visualization"
 mathjax: "true"
 ---
 

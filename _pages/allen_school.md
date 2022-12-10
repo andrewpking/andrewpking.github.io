@@ -3,7 +3,6 @@ title: "Allen School"
 permalink: /allen_school/
 tags: [education, metacognition, accessibility]
 header:
-  - title: "Allen School for Computer Science"
     image: ../assets/images/allen_school.jpg
 excerpt: "Education, Metacognintion, Accessibility"
 mathjax: "true"
