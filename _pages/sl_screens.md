@@ -4,7 +4,7 @@ permalink: /sl_screens/
 date: 2022-07-13
 tags: [machine learning, data science, data visualization]
 header:
-    image: ../assets/images/lasso_vs_sl.png
+    image: ../assets/images/fred_hutch_logo.png
 mathjax: "true"
 ---
 
@@ -41,6 +41,8 @@ Lasso + SL not always a helpful combo; surprising result!
 * SL with screens or SL with lasso and screens = safe choice
 * Lasso by itself = unreliable in most cases
 * Lasso + SL with no screens = unreliable in many cases
+You can see some of our preliminary results in the following chart generated in R with ggplot2.
+![sl screens preliminary results](../assets/images/lasso_vs_sl.png)
 
 *Code will be available on GitHub once the paper is published*
 * Open source under the MIT license
