@@ -4,7 +4,7 @@ permalink: /solala/
 date: 2022-07-22
 tags: [mental health app, software development, web development, mobile development]
 header:
-  image: "https://andrewpking.github.io/images/solala-logo.png"
+  image: "images/solala-logo.png"
 excerpt: "Mental Health App, Software Development, Data Visualization, Web Development, Mobile Development"
 mathjax: "true"
 ---

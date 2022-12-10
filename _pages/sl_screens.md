@@ -6,8 +6,8 @@ tags: [machine learning, data science, data visualization]
 header:
 sidebar:
   - title: "SuperLearner Screens"
-    image: "https://andrewpking.github.io/images/lasso_vs_sl.png"
-    image_alt: "logo"
+    image: "images/lasso_vs_sl.png"
+    image_alt: "data"
     text: "Machine Learning, Data Science, Data Visualization"
   - title: "Experience"
     text: "Working with SuperLearner to find more meaningful ways to process data"
