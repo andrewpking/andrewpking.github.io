@@ -37,7 +37,7 @@ Some ways I can improve on my Cornell Notes are writing the summary section befo
 **Technical Skill**
 
 *HACK Assembly*
-![Hack Assembly](../assets/images/hack_assembly2.png){: .align-left}
+![Hack Assembly](../assets/images/hack_assembly2.png){: .align-right}
 One technical skill I learned at the Allen School is Assembly Language, both x-86 and HACK Assembly.  HACK Assembly is a low level language created for the [NAND2Tetris Project](https://www.nand2tetris.org/software) to write low level code for their HACK Computer.
   * This computer has 3 registers available for programming.
     + The D (data) register holds any numeric data passed into the register.
