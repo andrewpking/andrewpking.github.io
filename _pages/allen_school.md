@@ -37,7 +37,7 @@ Some ways I can improve on my Cornell Notes are writing the summary section befo
 **Technical Skill**
 
 *HACK Assembly*
-
+![Hack Assembly](../assets/images/hack_assembly2.png){: .align-left}
 One technical skill I learned at the Allen School is Assembly Language, both x-86 and HACK Assembly.  HACK Assembly is a low level language created for the [NAND2Tetris Project](https://www.nand2tetris.org/software) to write low level code for their HACK Computer.
   * This computer has 3 registers available for programming.
     + The D (data) register holds any numeric data passed into the register.
@@ -48,7 +48,8 @@ One technical skill I learned at the Allen School is Assembly Language, both x-8
     + Hack assembly supports simple arithmetic computations such as adding, subtracting, incrementing, and decrementing the registers.
     + Hack assembly supports Jump commands in the syntax "@Label", "RegisterName; JumpType" all separated by new lines with no commas.
   * With these simple commands the HACK computer requires most logic to be implemented in software.  I will provide an example of software I wrote by hand that multiplies the value of two positive integers and stores them in memory.
-![Hack Assembly](../assets/images/hack_assembly2.png)
+
+Some ways I can improve my HACK Assembly writing skills is tracing through the code I have written and debugging it using the CPUEmulator tool provided with Nand2Tetris.  Generally debugging by hand is tedious and error prone, since some faults cannot be detected tracing code by hand.  Debugging properly is a useful skill we cover extensively at the Allen School and outside of the scope of this article.
 
 **Life at Allen School**
 
