@@ -37,14 +37,15 @@ Potential impact in vaccine, cancer research
 
 Results
 
-Lasso + SL not always a helpful combo; surprising result!
-* SL with screens or SL with lasso and screens = safe choice
-* Lasso by itself = unreliable in most cases
-* Lasso + SL with no screens = unreliable in many cases
+Lasso + SL not always a helpful combo.  This is a surprising result!
+* SL with screens or SL with lasso and screens is a safe choice
+* Lasso by itself is unreliable in most cases
+* Lasso + SL with no screens is unreliable in many cases
+
 You can see some of our preliminary results in the following chart generated in R with ggplot2.
 ![sl screens preliminary results](../assets/images/lasso_vs_sl.png)
 
-*Code will be available on GitHub once the paper is published*
+*Code will be available on GitHub once peer reviewed research paper is published*
 * Open source under the MIT license
 
 **Next steps:**
