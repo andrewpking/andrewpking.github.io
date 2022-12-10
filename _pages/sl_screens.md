@@ -4,7 +4,7 @@ permalink: /sl_screens/
 date: 2022-07-13
 tags: [machine learning, data science, data visualization]
 header:
-    image: ../assets/images/fred_hutch_logo.png
+    image: ../assets/images/fh_logo.png
 mathjax: "true"
 ---
 
