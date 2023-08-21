@@ -4,7 +4,7 @@ permalink: /allen_school/
 date: 2022-12-06
 tags: [education, meta-cognition, accessibility]
 header:
-  image: "/images/allen-school.jpg"
+  image: "/images/allen_school.jpg"
 excerpt: "Education, Meta-cognition, Accessibility"
 mathjax: "true"
 ---
@@ -36,4 +36,4 @@ At UW, one meta-cognitive skill I have been applying is building connections wit
 
 Another important skill to succeed at the Allen School is using [Cornell Notes](https://lsc.cornell.edu/wp-content/uploads/2016/10/Cornell-NoteTaking-System.pdf).  What Cornell Notes do is heighten note taking to take advantage of [Bloom's Taxonomy](https://cft.vanderbilt.edu/guides-sub-pages/blooms-taxonomy/) by including questions and summaries into notes for a lecture.  By taking notes in this manner, I have retained more information from lecture and been able to know when to apply the information appropriately on projects.  An example of my Cornell notes on using loads in computer architecture are provided here.
 
-![Cornell Notes](/images/cornell_notes.png){ width=100px,height:400px }
+![Cornell Notes](/images/cornell_notes.png)
