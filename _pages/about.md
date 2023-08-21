@@ -1,7 +1,7 @@
 ---
-title: "About"
+title: "About Drew King"
 permalink: /about/
-header:  "Drew King (they/them)"
+header:
   image: "/images/waterfront.jpeg"
 ---
 
