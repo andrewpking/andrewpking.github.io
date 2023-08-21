@@ -1,7 +1,7 @@
 ---
 title: "Allen School"
 permalink: /allen_school/
-date: 2022-12-06
+date: 2023-21-08
 tags: [education, meta-cognition, accessibility]
 header:
   image: "/images/allen_school.jpg"
