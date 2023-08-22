@@ -9,30 +9,34 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Drew King</title>
-<meta name="description" content="Data Science Portfolio">
+<!-- begin _includes/seo.html --><title>Shiny Climate - Drew King</title>
+<meta name="description" content="Web Development, Data Science, Data Visualization">
 
 
   <meta name="author" content="Drew King">
   
+  <meta property="article:author" content="Drew King">
+  
 
 
-<meta property="og:type" content="website">
+<meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Drew King">
-<meta property="og:title" content="Drew King">
-<meta property="og:url" content="https://andrewpking.github.io/">
+<meta property="og:title" content="Shiny Climate">
+<meta property="og:url" content="https://andrewpking.github.io/shiny_climate/">
 
 
-  <meta property="og:description" content="Data Science Portfolio">
-
-
-
-  <meta property="og:image" content="https://andrewpking.github.io/images/bio-pic.jpeg">
+  <meta property="og:description" content="Web Development, Data Science, Data Visualization">
 
 
 
+  <meta property="og:image" content="https://andrewpking.github.io/images/shiny_climate.png">
 
+
+
+
+
+  <meta property="article:published_time" content="2023-08-21T00:00:00-07:00">
 
 
 
@@ -43,7 +47,7 @@
   
 
 
-<link rel="canonical" href="https://andrewpking.github.io/">
+<link rel="canonical" href="https://andrewpking.github.io/shiny_climate/">
 
 
 
@@ -94,7 +98,7 @@
 
   </head>
 
-  <body class="layout--home">
+  <body class="layout--single">
     <nav class="skip-links">
   <ul>
     <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
@@ -151,10 +155,12 @@
   style=" background-image: url('');"
 >
   
-    <img src="/images/bio-pic.jpeg" alt="" class="page__hero-image">
+    <img src="/images/shiny_climate.png" alt="Shiny Climate" class="page__hero-image">
   
   
 </div>
+
+
 
 
 
@@ -288,33 +294,20 @@
 
 
 
-  <div class="archive">
-    
-      <h1 id="page-title" class="page__title"></h1>
-    
-    
-
-<h3 class="archive__subtitle">Recent Posts</h3>
-
-
-
-
-<div class="entries-list">
-  
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Shiny Climate">
+    <meta itemprop="description" content="Web Development, Data Science, Data Visualization">
+    <meta itemprop="datePublished" content="2023-08-21T00:00:00-07:00">
     
 
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title no_toc" itemprop="headline">
+    <div class="page__inner-wrap">
       
-        <a href="/shiny_climate/" rel="permalink">Shiny Climate
+        <header>
+          <h1 id="page-title" class="page__title p-name" itemprop="headline">
+            <a href="https://andrewpking.github.io/shiny_climate/" class="u-url" itemprop="url">Shiny Climate
 </a>
-      
-    </h2>
-    
+          </h1>
+          
 
   <p class="page__meta">
     
@@ -335,17 +328,128 @@
   </p>
 
 
-    <p class="archive__item-excerpt" itemprop="description">Web Development, Data Science, Data Visualization
-</p>
-  </article>
-</div>
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+        <h2 id="shiny-climate-exploring-climate-change-in-r-shiny">Shiny-Climate: Exploring Climate Change in R Shiny</h2>
+
+<p>Drew King (they/them) <a href="mailto:kingdrew@uw.edu">kingdrew@uw.edu</a><br />
+Derek Liu (he/him) <a href="mailto:deliu@uw.edu">deliu@uw.edu</a></p>
+
+<h3 id="introduction">Introduction</h3>
+
+<p>Creating visualizations comparing climate change data on carbon emissions and global temperature changes over time using data that has already been collected. Goal of establishing relationship between CO2 output over time with climate change, along with understanding which regions are most responsible for and impacted by climate change. The results are published in an R Shiny app.</p>
+
+<h4 id="r-shiny-app">R Shiny App</h4>
+
+<p>The R Shiny app can be found on <a href="https://shinyapps.io/">shinyapps.io</a> at this <a href="https://andrewpking.shinyapps.io/shiny-climate/">link</a> with each visualization described below in order:</p>
+
+<ol>
+  <li>
+    <p>The first visualization included is cumulative CO2 growth by continent broken down by individual countries, along with average temperatures for each country in the given time frame. The countries shown and time frame may be adjusted. The goal of this visualization is to show which regions are producing the most CO2 and how climate change is affecting them.</p>
+  </li>
+  <li>
+    <p>The second visualization (in progress) is CO2 emissions by continent over time, the goal of this visualization is to show general CO2 growth over time as well as which continents are producing the most CO2.</p>
+  </li>
+  <li>
+    <p>The third visualization (in progress) is Temperature Change over time by continent, broken down into minimum temperatures, average temperatures, and maximum temperatures. The goal of this visualization is to show which regions are most impacted by climate change.</p>
+  </li>
+</ol>
+
+<h4 id="dataset">Dataset</h4>
+
+<p>Two datasets were used, both of which can be found on Kaggle. One is CO2 Emissions over time by country, the other is Temperature data over time from Berkeley Earth. They can be found here:</p>
+
+<ul>
+  <li><a href="https://www.kaggle.com/datasets/dustinober/2022-complete-co2-emissions?select=owid-co2-data.csv">“2022 Complete CO2 Emissions”</a></li>
+  <li><a href="https://www.kaggle.com/datasets/berkeleyearth/climate-change-earth-surface-temperature-data">“Climate Change: Earth Surface Temperature Data”</a></li>
+</ul>
+
+<p>In the <code class="language-plaintext highlighter-rouge">agg.R</code> script, these country temperature data set from Berkeley Earth and the Complete CO2 Emissions data set are merged together to create a more complete data set that includes both CO2 growth and temperature change. This aggregated data set is used by the app to create visualizations that would not be possible without merging the data together.</p>
+
+<h3 id="results">Results</h3>
+
+<p>When visualizing CO2 output by continent with countries visible, three major countries are visible on this chart. China, Germany, and The United States are the three biggest global polluters. Unsurprisingly, these countries also have the largest GDP’s globally. Additionally most of the carbon growth globally has happened between 1930 and the present, with an upward trend for each year.</p>
+
+<h3 id="further-questions">Further Questions</h3>
+
+<p>It is paramount to explore in further depth the relationship between GDP and emission of climate change causing chemicals. It is possible that existing economic activity could be a direct cause of climate change. Policymakers may need to consider new measurements of economic growth that consider climate change as a threat to global wellbeing and to measure economies not only by quantity of economic output but also quality.</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
 
   
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
     
+      <a href="/tags/#data-science" class="page__taxonomy-item p-category" rel="tag">data science</a><span class="sep">, </span>
+    
+      <a href="/tags/#data-visualization" class="page__taxonomy-item p-category" rel="tag">data visualization</a><span class="sep">, </span>
+    
+      <a href="/tags/#web-development" class="page__taxonomy-item p-category" rel="tag">web development</a>
+    
+    </span>
+  </p>
 
 
 
-<div class="list__item">
+
+        
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2023-08-21T00:00:00-07:00">August 21, 2023</time></p>
+
+      </footer>
+
+      <section class="page__share">
+  
+    <h4 class="page__share-title">Share on</h4>
+  
+
+  <a href="https://twitter.com/intent/tweet?text=Shiny+Climate%20https%3A%2F%2Fandrewpking.github.io%2Fshiny_climate%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fandrewpking.github.io%2Fshiny_climate%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fandrewpking.github.io%2Fshiny_climate%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/allen_school/" class="pagination--pager" title="Allen School
+">Previous</a>
+    
+    
+      <a href="#" class="pagination--pager disabled">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h2 class="page__related-title">You May Also Enjoy</h2>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
     
     <h2 class="archive__item-title no_toc" itemprop="headline">
@@ -380,12 +484,12 @@
   </article>
 </div>
 
-  
-    
+        
+          
 
 
 
-<div class="list__item">
+<div class="grid__item">
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
     
     <h2 class="archive__item-title no_toc" itemprop="headline">
@@ -420,12 +524,12 @@
   </article>
 </div>
 
-  
-    
+        
+          
 
 
 
-<div class="list__item">
+<div class="grid__item">
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
     
     <h2 class="archive__item-title no_toc" itemprop="headline">
@@ -460,14 +564,13 @@
   </article>
 </div>
 
+        
+      </div>
+    </div>
+  
   
 </div>
 
-
-
-
-  </div>
-</div>
     </div>
 
     

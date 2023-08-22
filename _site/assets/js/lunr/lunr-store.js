@@ -16,4 +16,10 @@ var store = [{
         "tags": ["education","meta-cognition","accessibility"],
         "url": "/allen_school/",
         "teaser": null
+      },{
+        "title": "Shiny Climate",
+        "excerpt":"Shiny-Climate: Exploring Climate Change in R Shiny Drew King (they/them) kingdrew@uw.edu Derek Liu (he/him) deliu@uw.edu Introduction Creating visualizations comparing climate change data on carbon emissions and global temperature changes over time using data that has already been collected. Goal of establishing relationship between CO2 output over time with climate change,...","categories": [],
+        "tags": ["web development","data science","data visualization"],
+        "url": "/shiny_climate/",
+        "teaser": null
       }]
